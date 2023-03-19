@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#wrapper{
+    font-family: 'Varela Round', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: row;
+  position: relative;  
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heading{
+  margin-top: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:40px;
+  position: relative;
+}
+
+.empty {
+  background-color: rgb(44, 21, 91);
+  height: 8px;
+  width: 24rem;
+  position: absolute;
+}
+.eductionSec{
+  margin-top:3rem ;
+  background-image: linear-gradient(to right, rgba(117, 219, 187, 0.879),rgb(105, 216, 174));
+  display: flex;
+  flex-direction: column;
+}
+
+.phd-heding{
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 2rem;
+  padding-right: .5rem;
+}
+.block_flex
+{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.phd-discrip{
+  font-size: 20px;
+  margin-left: 10rem;
+}
+.sub_heading{
+  text-decoration:underline;
+  margin: 1rem 0;
+
+
+  /* position: relative; */
+  /* right: 33rem; */
+}
+.mainHeading{
+  text-shadow:3px 3px 5px rgb(87, 77, 77);
+  letter-spacing: 5px;
+
+}
+.block_cnt{
+  font-size: 20px;
+  display: flex;
+  justify-content:start;
+  align-items: start;
+margin-left: 2rem;
+  /* position: relative;
+  left: 0rem; */
+}
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .empty {
+    width: 100%;
+
+  }
+  
+  .eductionSec {
+    width: 100%;
+    padding-left: 2rem;
+  }
+
+}
+
+/* Media query for mobile phones */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .empty {
+    width: 100%;
+  }
+  
+  .heading {
+    font-size: 30px;
+  }
+  
+  .eductionSec {
+    width: 100%;
+    padding-left: 1rem;
+  }
+  
+  
+  .sub_heading {
+    font-size: 20px;
+  }
+  .block_cnt{
+    font-size: 18px;
+  }
+}

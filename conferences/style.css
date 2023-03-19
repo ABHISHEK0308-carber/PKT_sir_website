@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#wrapper{
+    font-family: 'Varela Round', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    position: relative;  
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading{
+    margin-top: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin: px; */
+    /* margin-bottom: 20px;  */
+    font-size:35px;
+    position: relative;
+    /* gap: 2px; */
+}
+.empty {
+    /* background-color: rgb(44, 21, 91); */
+    background-color: rgb(187, 144, 144);
+    height: 8px;
+    width: 26rem;
+    position: absolute;
+    /* bottom:-15px; */
+    
+   
+}
+.conference{
+    margin-top: 5rem;
+    font-size: 20px;
+    /* line-height: 2rem; */
+    padding: 0 5rem;
+    color: rgb(80, 43, 43);
+
+}
+.conference li{
+    /* line-height: 3rem; */
+    margin-bottom: 10px;
+}
+.confernceSec{
+  margin-top:3rem ;
+  background-image: linear-gradient(to right ,rgb(183, 238, 235),rgba(60, 181, 189, 0.902));
+
+}
+.achive{
+    /* font-size:x-large; */
+    font-weight: 600;
+}
+.mainHeading{
+    text-shadow:4px 4px 8px rgb(83, 73, 73);
+    letter-spacing: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .empty{
+      width: 16rem;
+    }
+    .conference {
+      margin: 2rem;
+      padding: 0.5rem 1rem;
+      padding-right: 0;
+    }
+    .mainHeading {
+      font-size: 30px;
+    }
+    .conference li {
+      font-size: 18px;
+    }
+  }

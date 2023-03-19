@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#wrapper{
+    font-family: 'Varela Round', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    position: relative;  
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading{
+    margin-top: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin: px; */
+    /* margin-bottom: 20px;  */
+    font-size:35px;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* gap: 2px; */
+}
+.empty {
+    /* background-color: rgb(44, 21, 91); */
+    background-color: rgb(187, 144, 144);
+    height: 8px;
+    width: 17rem;
+    position: absolute;
+    top: 3.5rem;
+    /* bottom:-15px; */
+    
+   
+}
+.about-me{
+    /* margin-top: 1rem; */
+    font-size: 16px;
+    /* line-height: 2rem; */
+    /* margin: 0 auto; */
+    padding: 0 5rem;
+    color: rgb(80, 43, 43);
+
+}
+h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+
+}
+.list{
+    padding-left: 2rem;
+}
+.about-me li{
+    /* line-height: 3rem; */
+    margin-bottom: 15px;
+}
+.important{
+    font-weight: bold;
+}
+.aboutsec{
+  margin-top:3rem ;
+  background-image: linear-gradient(to right ,rgb(183, 238, 235),rgba(60, 181, 189, 0.902));
+
+}
+.about-cnt{
+  margin: 4rem 2rem 2rem 4rem ;
+  font-size: 18px;
+}
+.achive{
+    /* font-size:x-large; */
+    font-weight: 600;
+}
+.mainHeading{
+    text-shadow:4px 4px 8px rgb(83, 73, 73);
+    letter-spacing: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .empty{
+      width: 11rem;
+      position: absolute;
+      top: 2rem;
+    }
+    .about-me {
+      /* margin: 2rem; */
+      padding: 0.5rem 1rem;
+      padding-right: 0;
+    }
+    .about-cnt{
+      margin-left: 1rem;
+    }
+    .mainHeading {
+      font-size: 30px;
+    }
+    .abpout-me li {
+      font-size: 18px;
+    }
+  }
