@@ -32,14 +32,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Assistant Professor",  "Head of the department"],
+        strings: ["a Assistant Professor",  "Head of the department"],
         typeSpeed: 50,
         backSpeed: 40,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: [ "Assistant Professor", "Head of the department"],
+        strings: [ "a Assistant Professor", "Head of the department"],
         typeSpeed: 60,
         backSpeed: 40,
         loop: true

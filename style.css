@@ -370,7 +370,7 @@ section .title::after {
   }
   
   .box ul li:nth-child(1) a:before{
-    background: #3b5999;
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
   }
   
   .box ul li:nth-child(2) a:before{
