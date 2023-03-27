@@ -63,7 +63,7 @@
   
                       <ul>
                           <li>
-                              <a href="#" target="_blank">
+                              <a href="#" >
                                   <i class="fab fa-instagram icon"></i> </a>
                           </li>
                           <li>
@@ -170,31 +170,32 @@
           </div>
           <div class="column right">
             <div class="text">Message me</div>
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLScSewMGN6gkprGWampg9NEaduXnumLBkkMjG55R-Q1rQRG1Kg/formResponse" enctype="text/plain" target="hidden_iframe">
+            <form action="https://formspree.io/f/xyyadqwk"
+            method="POST" target="hidden_iframe" id="contact-form">
               <div class="fields">
                 <div class="field name">
-                  <input type="text" name = "entry.1666582885" placeholder="Name" required />
+                  <input type="text" name = "name" placeholder="Name" required />
                 </div>
                 <div class="field email">
-                  <input type="email" name="entry.241641482" placeholder="Email" required />
+                  <input type="email" name="email" placeholder="Email" required />
                 </div>
               </div>
               <div class="field">
-                <input type="text" name="entry.914960366" placeholder="Subject" required />
+                <input type="text" name="subject" placeholder="Subject" required />
               </div>
               <div class="field textarea">
                 <textarea
                   cols="30"
                   rows="10"
-                  name="entry.1082543915"
+                  name="message"
                   placeholder="Message..."
                   required
                 ></textarea>
               </div>
               <div class="button-area">
-                <button type="submit" name="submit">
-                  Send Me
-                </button>
+               <button type="submit" name="submit" >Send Me</button> 
+      
+              
               </div>
             </form>
 
